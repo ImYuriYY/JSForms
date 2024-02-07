@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>JS</title>
+</head>
+<body>
+    
+
+    <!-- TASK 1 -->
+
+    <select id="genres">
+        <option value="rock">Рок</option>
+        <option value="blues" selected>Блюз</option>
+    </select>
+
+
+
+
+
+    <!-- TASK 2 -->
+
+    <div id="myDiv">
+        <p id="finishedText">This text is editable</p>
+        <textarea id="myTextarea" style="display: none;"></textarea>
+    </div>
+
+
+
+
+
+    <!-- TASK 3 -->
+
+    <div class="blocks-wrapper">
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 1</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+
+        </div>
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 2</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+        </div>
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 3</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+        </div>
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 4</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+        </div>
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 5</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+        </div>
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 6</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+        </div>
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 7</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+        </div>
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 8</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+        </div>
+        <div class="block">
+            <p id="blockText">
+                <strong>Block 9</strong>
+                <br>Text1
+                <br>Text2
+                <br>Text3
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- TASK 4 -->
+
+    <div class="deposit-calc">
+        <h1>Депозитный калькулятор</h1>
+        <form action="" id="calcForm">
+            <label>
+                <p>Первоначальный депозит</p>
+                <input type="number" id="perviousDep">
+            </label>
+            <label>
+                <p>Срок вклада?</p>
+                <select id="period">
+                    <option value="1">Год</option>
+                    <option value="2">2 года</option>
+                    <option value="3">3 года</option>
+                    <option value="4">4 года</option>
+                    <option value="5">5 лет</option>
+                </select>
+            </label>
+            <label>
+                <p>Годовая процентная ставка?</p>
+                <input type="number" id="yearPercent">
+            </label>
+        </form>
+        <div class="graphic-interface">
+            <div class="before">
+                <div id="beforeLine"></div>
+                <p id="beforeSum">Было:</p>
+            </div>
+            <div class="after">
+                <div id="afterLine"></div>
+                <p id="afterSum">Стало:</p>
+            </div>
+        </div>
+        <button id="goButton">Рассчитать</button>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

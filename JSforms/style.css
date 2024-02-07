@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#myDiv {
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+#finishedText, #myTextarea {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+#myTextarea {
+    resize: none;
+    background-color: burlywood;
+    outline: none;
+}
+
+
+
+
+.blocks-wrapper {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+    margin: 100px 0;
+}
+
+.block {
+    position: relative;
+    width: calc(100%/3);
+    height: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: brown;
+}
+
+
+#blockText, #changeTextarea {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#changeTextarea {
+    resize: none;
+    outline: none;
+}
+
+#buttonsWrapper {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    z-index: 100;
+}
+
+#OKbutton, #CANCELbutton {
+    height: 25px;
+}
+
+
+.deposit-calc {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+}
+.deposit-calc h1 {
+    padding-bottom: 25px;
+}
+#calcForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.deposit-calc form label p {
+    font-size: 20px;
+}
+
+.graphic-interface {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 50px;
+}
+.before, .after {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 100%;
+}
+.before, .after p {
+    font-size: 25px;
+}
+
+#beforeLine {
+    width: 25px;
+    background-color: blueviolet;
+}
+#afterLine {
+    width: 25px;
+    background-color: blanchedalmond;
+}
+
+#goButton {
+    margin: 50px 0;
+    width: 300px;
+    height: 30px;
+}
